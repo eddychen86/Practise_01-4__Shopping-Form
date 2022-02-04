@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: '微軟正黑體';
+    position: relative;
+    /* border: 1px solid; */
+}
+
+html, body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    height: 0.8cm;
+}
+
+/* header */
+header{
+    height: 300px;
+
+    padding: 80px;
+    
+    background: rgb(255, 224, 88);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+    text-align: center;
+    
+    background-image: url(https://capturetheatlas.com/wp-content/uploads/2020/04/Long-exposure-photograph-1415x540-1585936962.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-size: 100px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.title span{
+    -webkit-text-stroke: 8px;
+}
+
+/*--------------------------*\
+            page 1
+\*--------------------------*/
+.product-box .container{
+    height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+img{
+    border-radius: 10px;
+    max-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pb-title{
+    margin-top: 10px;
+}
+.pb-info .pb-quantity{
+    border-radius: 5px;
+    font-size: 20px;
+}
+#pb-price{
+    width: 100px;
+    height: 0.8cm;
+    display: inline-block;
+    vertical-align: bottom;
+    color: red;
+}
+.btn{
+    border-radius: 50px !important; 
+    padding: 0;
+    margin-top: 30px;
+    width: 140px !important;
+    font-size: 0.5cm !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#pb-quantity{
+    height: 1cm;
+    padding: 0;
+    margin: 0;
+}
+#warr{
+    width: 200px;
+    height: 1cm;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 0.8cm;
+    color: red;
+}
