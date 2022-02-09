@@ -86,8 +86,6 @@ $(document).ready(function(){
                         var key = $.cookie("authKey");
                         console.log(key,"成功");
                         setTimeout("location.href = 'shopping-info.html';", 1500);
-                    } else {
-                        return false;
                     }
                 }
             );
