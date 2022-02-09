@@ -68,9 +68,6 @@ $(document).ready(function(){
                 $.cookie("email",mail.value);
                 $.cookie("username",un.value);
                 $.cookie("password",pwd_check.value);
-                
-                // console.log(document.cookie);
-                location.href = "shopping-info.html";
             }
 
             $.post(
@@ -88,6 +85,7 @@ $(document).ready(function(){
                         $.cookie("authKey", data);
                         var key = $.cookie("authKey");
                         console.log(key,"成功");
+                        setTimeout("location.href = 'shopping-info.html';", 1500);
                     } else {
                         return false;
                     }
